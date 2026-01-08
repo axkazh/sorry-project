@@ -1,14 +1,14 @@
+import "./globals.css";
+
 export const metadata = {
   title: "Sorry Kazama",
-  description: "A sorry project",
+  description: "A heartfelt apology",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
