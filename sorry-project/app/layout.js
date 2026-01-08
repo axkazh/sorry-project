@@ -1,8 +1,6 @@
-import "./globals.css";
-
 export const metadata = {
   title: "Sorry Kazama",
-  description: "A cute apology project",
+  description: "A sorry project",
 };
 
 export default function RootLayout({ children }) {

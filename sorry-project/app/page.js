@@ -1,7 +1,5 @@
-"use client";
-
 import Firstscreen from "../components/Firstscreen";
 
-export default function Home() {
+export default function HomePage() {
   return <Firstscreen />;
 }
